@@ -116,19 +116,21 @@ select {
   font-weight: 400;
 }
 body {
-  overflow: hidden;
   height: 100vh;
   padding: 40px;
-  background: url("./images/hp-logo.png") center bottom no-repeat,
-    url("./images/prof.png") 20px 40px no-repeat,
-    url("./images/minarva.png") right top no-repeat,
-    url("./images/hp.png") left 80% no-repeat,
-    url("./images/hp-.png") right 80% no-repeat;
+  background-image: url("./images/hp-logo.png"),
+    url("./images/prof.png"),
+    url("./images/minarva.png"),
+    url("./images/hp.png"),
+    url("./images/hp-.png");
+    background-position: center bottom, 20px 40px, right top, left 80%, right 80%;
+    background-repeat: no-repeat;
+    background-color: orange;
 }
 
 .wrapper {
-  background-color: orange;
   position: absolute;
+  background-color: orange;
   width: 100%;
   top: 0;
   left: 0;
