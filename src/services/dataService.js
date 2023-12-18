@@ -2,7 +2,7 @@
 
 const teachersData = [
     { name: 'Professor Dumbledore', attendance: 'Present' },
-    { name: 'Minerva McGonagall', attendance: 'Absent' },
+    { name: 'Minerva McGonagall', attendance: 'Present' },
     { name: 'Rubeus Hagrid', attendance: 'Present' },
     { name: 'Horace Slughorn', attendance: 'Present' },
     { name: 'Severus Snape', attendance: 'Present' },
