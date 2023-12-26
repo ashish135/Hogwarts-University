@@ -26,7 +26,7 @@ const subjectTeacherAllocation = [
   {
     student: "Hermione Granger",
     subject: "Potions Master",
-    teacher: "Minerva McGonagall",
+    teacher: "",
   },
   {
     student: "Ron Weasley",
@@ -41,7 +41,7 @@ const subjectTeacherAllocation = [
   {
     student: "Padma Patil",
     subject: "Potions Master",
-    teacher: "Minerva McGonagall",
+    teacher: "",
   },
   {
     student: "Luna Lovegood",
