@@ -3,7 +3,6 @@
 import React from "react";
 
 const AttendanceGrid = ({ teachers, onAttendanceChange }) => {
-  //const [selectedValue, setSelectedValue] = useState('');
   return (
     <>
       <table>
@@ -20,6 +19,7 @@ const AttendanceGrid = ({ teachers, onAttendanceChange }) => {
                 <td>{teacher.name}</td>
                 <td>
                   <select
+                    data-testid={`attendance-select-${teacher.name.replace(" ", "-")}`}
                     value={teacher.attendance}
                     onChange={(e) =>
                       onAttendanceChange(teacher.name, e.target.value)
