@@ -92,12 +92,8 @@ function App() {
             .attendance === "Absent"
         ) {
           assignedTeacher = "Not Assigned";
-        } else {
-          assignedTeacher = "All Absent";
-        }
-      } else {
-        assignedTeacher = "All Absent";
-      }
+        } 
+      } 
 
       return {
         student,
